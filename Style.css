@@ -1,0 +1,128 @@
+.gradient-background {
+    background: linear-gradient(320deg,  #022873, #7669EB, #731AEB);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+    padding-bottom: 50px;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .profile-img {
+    border-radius: 50%;
+    height: 100px;
+  }
+
+  .mainContainer{
+    background-color: #7669EB;
+    width: 95%;
+    border-radius: 15px;
+    display: flex;
+    padding: 2rem;
+    margin-left: 25px;
+    color: white;
+  }
+  .container-md{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .CV-row{
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   margin: 1em auto; 
+   
+  }
+
+   .CV-card{
+    width: 40%;
+    padding: 1.5rem;
+    background-color: #731AED;
+    border-radius: 15px;
+   }
+   
+   h1 {
+    display: block;
+    font-size: 1.6em;
+    margin-block-start: 1.5em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    
+   }
+   h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1.5em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+   }
+   h4 {
+    font-size: 1.0em;
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+   }
+   h1{
+    margin: auto;
+   }
+   
+  @media (max-width: 1000px) {
+    .Portfolio-row {
+      flex-direction: column;
+      height: 100%;
+    }
+  }
+ .Portfolio-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 50px;
+  margin-top: 30px;
+  padding-bottom: 50px;
+  margin-left: 25px;
+  width: 95%;
+  border-radius: 15px;
+  align-items: center;
+ } 
+ .Portfolio-card {
+  flex: 1;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #7669EB;
+  border-radius: 15px;
+  align-items: center;
+ }
+ .footer{
+  background-color: #7669EB;
+  padding-top: 20px;
+  margin-top: 20px;
+  height: 300px;
+
+ }
+ .footeritems{
+  text-align: center;
+  color: white;
+ }
+ .btn{
+  background-color:#7669EB ;
+ }
